@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/bilguun17/static/css/main.7f8f0bd9.chunk.css",
-    "main.js": "/bilguun17/static/js/main.ea73151d.chunk.js",
-    "main.js.map": "/bilguun17/static/js/main.ea73151d.chunk.js.map",
+    "main.css": "/bilguun17/static/css/main.af3f9036.chunk.css",
+    "main.js": "/bilguun17/static/js/main.4360721a.chunk.js",
+    "main.js.map": "/bilguun17/static/js/main.4360721a.chunk.js.map",
     "runtime-main.js": "/bilguun17/static/js/runtime-main.3ade0cae.js",
     "runtime-main.js.map": "/bilguun17/static/js/runtime-main.3ade0cae.js.map",
     "static/css/2.ec02d681.chunk.css": "/bilguun17/static/css/2.ec02d681.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.c5539a47.chunk.js.map": "/bilguun17/static/js/2.c5539a47.chunk.js.map",
     "index.html": "/bilguun17/index.html",
     "static/css/2.ec02d681.chunk.css.map": "/bilguun17/static/css/2.ec02d681.chunk.css.map",
-    "static/css/main.7f8f0bd9.chunk.css.map": "/bilguun17/static/css/main.7f8f0bd9.chunk.css.map",
+    "static/css/main.af3f9036.chunk.css.map": "/bilguun17/static/css/main.af3f9036.chunk.css.map",
     "static/js/2.c5539a47.chunk.js.LICENSE.txt": "/bilguun17/static/js/2.c5539a47.chunk.js.LICENSE.txt",
     "static/media/cil_moon.e3d775f3.svg": "/bilguun17/static/media/cil_moon.e3d775f3.svg",
     "static/media/cil_moon_side.edbdd9b9.svg": "/bilguun17/static/media/cil_moon_side.edbdd9b9.svg",
@@ -22,7 +22,7 @@
     "static/js/runtime-main.3ade0cae.js",
     "static/css/2.ec02d681.chunk.css",
     "static/js/2.c5539a47.chunk.js",
-    "static/css/main.7f8f0bd9.chunk.css",
-    "static/js/main.ea73151d.chunk.js"
+    "static/css/main.af3f9036.chunk.css",
+    "static/js/main.4360721a.chunk.js"
   ]
 }
