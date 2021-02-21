@@ -1,0 +1,30 @@
+body{
+  margin: 0;
+  color: var(--primary-color);
+  font-family: Sanchez;
+  transition: color 0.6s ease;
+}
+:root{
+  --primary-color: #000;
+  --secondary-color: #f32c68;
+  --bg-color: #D2D2D3;
+  --bg-second: #E4E4E4;
+  --circle-second: #2F303A;
+  --bg-url: url(./Img/home-bg-light.svg);
+  --earth-color: #C1C1CE;
+  --input-bg: #fff;
+  --icon-color: #000;
+  --icon-hover: #f32c68;
+}
+[data-theme = "dark"]{
+  --primary-color: #fff;
+  --secondary-color: #ffe600;
+  --bg-color: #040a18;
+  --bg-second: #0f1727;
+  --circle-second: #C4C4C4;
+  --bg-url: url(./Img/home-bg-dark.svg);
+  --earth-color: #1b2338;
+  --input-bg: #272834;
+  --icon-color: #fff;
+  --icon-hover: #4267B2;
+}
