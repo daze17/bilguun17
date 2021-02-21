@@ -77,7 +77,7 @@ const App = () => {
     <Router>
       <div onScroll={handleScroll} className="App">
         <Switch>
-          <Route exact path="/">
+          <Route exact path="/bilguun17">
             <NavBar toggleDrawer={() => toggleOpen()} scroll={navScroll} darkMode={darkMode} setDarkMode={setDarkMode} /> 
             <SideDrawer
                 isShown={isOpen}

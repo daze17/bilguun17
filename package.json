@@ -1,4 +1,5 @@
 {
+  "homepage": "https://daze17.github.io/bilguun17",
   "name": "blgn",
   "version": "0.1.0",
   "private": true,
@@ -21,6 +22,8 @@
     "web-vitals": "^0.2.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -52,7 +55,6 @@
     "@iconify/icons-cib": "^1.1.0",
     "@iconify/icons-fa-brands": "^1.1.0",
     "@iconify/icons-fluent": "^1.1.3",
-    "@iconify/react": "^1.1.4",
-    "gh-pages": "^3.1.0"
+    "@iconify/react": "^1.1.4"
   }
 }
