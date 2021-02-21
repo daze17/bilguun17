@@ -11,7 +11,7 @@ const NavBar = ({ toggleDrawer, scroll, darkMode, setDarkMode}) =>{
         <header className={scroll ? "toolbar-scrolled" : "toolbar-up"}>
             <nav className="navbar">
                 <motion.div className="nav-logo">
-                    <HashLink to="/#"> Bilguun </HashLink>
+                    <HashLink to="/#bilguun17"> Bilguun </HashLink>
                 </motion.div>
 
                 <div className="burger-menu">
@@ -21,16 +21,16 @@ const NavBar = ({ toggleDrawer, scroll, darkMode, setDarkMode}) =>{
                 <div className="nav-items">
                     <ul>
                         <li>
-                            <HashLink to="/#About">About</HashLink>
+                            <HashLink to="/bilguun17/#About">About</HashLink>
                         </li>
                         <li>
-                            <HashLink to="/#Work">Works</HashLink>
+                            <HashLink to="/bilguun17/#Work">Works</HashLink>
                         </li>
                         <li>
-                            <HashLink to="/#Contact">Contact</HashLink>
+                            <HashLink to="/bilguun17/#Contact">Contact</HashLink>
                         </li>
                         <li>
-                            <HashLink to="/#About">Resume</HashLink>
+                            <HashLink to="/bilguun17/#About">Resume</HashLink>
                         </li>
                         <li>
                             <div className="switch-button-container">

@@ -32,7 +32,7 @@ const MenuItem = ({ title, closeDrawer }) => {
       whileHover={{ scale: 1.1 }}
       whileTap={{ scale: 0.95 }}
       >
-      <HashLink to={`/#${title}`} onClick={closeDrawer}>{title}</HashLink>
+      <HashLink to={`/bilguun17/#${title}`} onClick={closeDrawer}>{title}</HashLink>
       </motion.li>
     );
   };
