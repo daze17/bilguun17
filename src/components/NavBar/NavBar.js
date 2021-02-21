@@ -11,7 +11,7 @@ const NavBar = ({ toggleDrawer, scroll, darkMode, setDarkMode}) =>{
         <header className={scroll ? "toolbar-scrolled" : "toolbar-up"}>
             <nav className="navbar">
                 <motion.div className="nav-logo">
-                    <HashLink to="/#bilguun17"> Bilguun </HashLink>
+                    <HashLink to="/bilguun17/#"> Bilguun </HashLink>
                 </motion.div>
 
                 <div className="burger-menu">
