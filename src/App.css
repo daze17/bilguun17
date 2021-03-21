@@ -7,6 +7,7 @@ body{
 :root{
   --primary-color: #000;
   --secondary-color: #f32c68;
+  --nav-hover: #f89db8;
   --bg-color: #D2D2D3;
   --bg-second: #E4E4E4;
   --circle-second: #2F303A;
@@ -19,6 +20,7 @@ body{
 [data-theme = "dark"]{
   --primary-color: #fff;
   --secondary-color: #ffe600;
+  --nav-hover: #ffe600;
   --bg-color: #040a18;
   --bg-second: #0f1727;
   --circle-second: #C4C4C4;

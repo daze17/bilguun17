@@ -11,6 +11,12 @@
 .footer-container p {
     font-size: 0.9rem;
     margin-top: 0;
+    transition: 0.5s;
+}
+.footer-container p:hover {
+    transition: 0.5s;
+    background-color: #f89db8;
+    color: #000;
 }
 .footer-svg{
     width: 100%;

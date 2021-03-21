@@ -55,7 +55,7 @@ body.side_drawer.open{
 
 .side_drawer a:hover,
 .side_drawer a:active {
-  color: #ffe600;
+  color: var(--secondary-color);
   font-weight: 600;
 }
 
@@ -81,4 +81,8 @@ body.side_drawer.open{
   cursor: pointer;
   height: 35px;
   opacity: 1;
+}
+.side-sun-button:hover, .side-moon-button:hover{
+  color: var(--secondary-color);
+  font-weight: 600;
 }

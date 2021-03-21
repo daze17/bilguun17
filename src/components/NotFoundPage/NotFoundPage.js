@@ -10,7 +10,6 @@ const NotFoundPage = () => {
  const [darkMode, setDarkMode] = useState(getInitialMode())
  useEffect(()=>{
      localStorage.setItem('dark', JSON.stringify(darkMode));
-     console.log('darkmode=' + darkMode);
      (darkMode) ? document.documentElement.setAttribute('data-theme', 'dark') : document.documentElement.setAttribute('data-theme', 'light');
  },[darkMode]);
 

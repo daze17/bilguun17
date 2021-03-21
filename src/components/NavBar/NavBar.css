@@ -38,6 +38,8 @@
 .nav-items li{
     padding: 0 1rem;
     position: relative;
+    display: flex;
+    align-items: center;
 }
 .nav-items a{
     text-decoration: none;
@@ -45,7 +47,7 @@
     color: #fff;
 }
 .nav-items a:hover{
-    color: var(--secondary-color);
+    color: var(--nav-hover);
 }
 .nav-logo {
     display: flex;
@@ -58,17 +60,25 @@
     color: #fff;
 }
 .nav-logo a:hover {
-    color: var(--secondary-color);
+    color: var(--nav-hover);
 }
 .switch-button-container{
     position: relative;
-    width: 35px;
-    height: 35px;
+    width: 38px;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.sun-button, .sun-button-dis, .moon-button, .moon-button-dis{
+.moon-button, .moon-button-dis{
     width: 35px;
     cursor: pointer;
     height: 35px;
+}
+.sun-button, .sun-button-dis{
+    width: 38px;
+    cursor: pointer;
+    height: 38px;
 }
 .sun-button, .moon-button{
     transform: translateY(0); 

@@ -3,7 +3,7 @@ import './SideDrawer.css'
 import CloseButton from './CloseButton'
 import { motion } from 'framer-motion'
 import MenuItem from './MenuItems'
-import dark from '../../Img/dark-mode.svg'
+import dark from '../../Img/sun.svg'
 import moon from '../../Img/cil_moon_side.svg'
 
 const SideDrawer = ({ isShown, closeDrawer, setDarkMode, darkMode }) => {
@@ -20,7 +20,7 @@ const SideDrawer = ({ isShown, closeDrawer, setDarkMode, darkMode }) => {
     open: {
       opacity: 1,
       transition: {
-        delay: 0.7
+        delay: 0.85
       }
     },
     closed: {
@@ -52,7 +52,6 @@ const pages = ([
             initial={false}
             animate={isShown ? "open" : "closed"} 
         >
-          {console.log(isShown)}
           {pages.map(page => (
             <MenuItem title={page.title} key={page.id} isShown={isShown} closeDrawer={closeDrawer}/>
           ))}

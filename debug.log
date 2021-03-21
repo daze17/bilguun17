@@ -20,3 +20,6 @@
 [0219/223734.468:ERROR:file_io_win.cc(244)] SetEndOfFile: Access is denied. (0x5)
 [0220/175745.278:ERROR:file_io_win.cc(244)] SetEndOfFile: Access is denied. (0x5)
 [0221/192141.800:ERROR:file_io_win.cc(244)] SetEndOfFile: Access is denied. (0x5)
+[0221/220117.458:ERROR:file_io_win.cc(244)] SetEndOfFile: Access is denied. (0x5)
+[0224/215619.934:ERROR:file_io_win.cc(244)] SetEndOfFile: Access is denied. (0x5)
+[0225/183137.813:ERROR:file_io_win.cc(244)] SetEndOfFile: Access is denied. (0x5)

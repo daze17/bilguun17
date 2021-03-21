@@ -1,7 +1,7 @@
 import React from 'react';
 import { HashLink } from 'react-router-hash-link';
 import { motion } from "framer-motion";
-import dark from '../../Img/dark-mode.svg'
+import dark from '../../Img/sun.svg'
 import moon from '../../Img/cil_moon.svg'
 import DrawerToggleButton from './DrawerToggleButton'
 import './NavBar.css'
@@ -30,7 +30,7 @@ const NavBar = ({ toggleDrawer, scroll, darkMode, setDarkMode}) =>{
                             <HashLink to="/bilguun17/#Contact">Contact</HashLink>
                         </li>
                         <li>
-                            <HashLink to="/bilguun17/#About">Resume</HashLink>
+                            <HashLink to="/bilguun17/#resumetatah">Resume</HashLink>
                         </li>
                         <li>
                             <div className="switch-button-container">

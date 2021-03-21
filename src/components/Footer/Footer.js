@@ -11,8 +11,8 @@ const Footer = ()=>{
         <div>
 
             <div className="footer-container">
-                <p>+976 89810500</p>
-                <p>bilguun889@gmail.com</p>
+                <p><a href="tel:+976 89810500">+976 89810500</a></p>
+                <p><a href="mailto:bilguun889@gmail.com">bilguun889@gmail.com</a></p>
                 <div>
                     <a href="https://www.facebook.com/profile.php?id=100011136487427" target="_blank" rel="noreferrer"> <Icon icon={facebookRect} className="footer-icons" /> </a>
                     <a href="https://memegenerator.net/img/instances/74124464/kono-dio-da.jpg" target="_blank" rel="noreferrer"> <Icon icon={instagramFill} className="footer-icons" /> </a>
