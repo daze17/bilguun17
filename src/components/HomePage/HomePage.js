@@ -3,7 +3,7 @@ import './HomePage.css'
 
 function Homepage() {
     return(
-        <div id="Home" className="home">
+        <div id="top" className="home">
             <div className="home-wrapper">
                 <div className="home-text-wrapper">
                     <h1 className="home-title">Bilguun Baasansuren</h1>
