@@ -10,18 +10,18 @@
     },
     {
         "id": 1,
-        "title": "Hiisen ajiluuuud",
-        "description": "Python application that automates branding post-processing for educational video content at UBC Sauder. Integrates with the Panopto video platform and Google Forms to allow faculty to submit a branding request with custom specifications, at which point the app will grab the video, apply branding to their specifications and reupload to Panopto.",
-        "imgAddress": "https://static.wikia.nocookie.net/shingekinokyojin/images/6/69/Eren_Yeager_character_image.png/revision/latest?cb=20200910221354",
-        "githubLInk": "https://github.com/daze1717",
-        "demoLink": "hahaha",
-        "stack" : ["REACT", "Node", "Expresss"]
+        "title": "Energy Audit",
+        "description": "The website that introduces the services of auditing. This site also gives informatic tips",
+        "imgAddress": "https://i.imgur.com/AdW2SXD.jpg",
+        "githubLInk": "",
+        "demoLink": "https://energyaudit.netlify.app",
+        "stack" : ["REACT", "Gatsby", "GraphQL"]
     },
     {
         "id": 2,
         "title": "Hiisen ajiluuuud",
         "description": "Python application that automates branding post-processing for educational video content at UBC Sauder. Integrates with the Panopto video platform and Google Forms to allow faculty to submit a branding request with custom specifications, at which point the app will grab the video, apply branding to their specifications and reupload to Panopto.",
-        "imgAddress": "https://static.wikia.nocookie.net/shingekinokyojin/images/6/69/Eren_Yeager_character_image.png/revision/latest?cb=20200910221354",
+        "imgAddress": "/project-images/automated-brander.png",
         "githubLInk": "https://github.com/daze1717",
         "demoLink": "hahaha",
         "stack" : ["REACT", "Node", "Expresss"]

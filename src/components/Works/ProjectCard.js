@@ -24,11 +24,11 @@ const ProjectCard = ({
                 <p> {projectDescription}
                 </p>
                 <div className="links">
-                    {gitHubLink}, {demoLink}
+                    <a href={demoLink} target="_blank" rel="noreferrer">{demoLink}</a>
                 </div>           
             </div>
             <div className="project-image">
-                <img src={projectImgAddress} alt="project img"/>
+                <a href={demoLink} target="_blank" rel="noreferrer"><img src={projectImgAddress} alt={projectTitle}/></a>
                 <div className="tools">
                      {tools} 
                 </div>
